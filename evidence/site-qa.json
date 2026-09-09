@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "sizes": [
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": []
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "overflow": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": []
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "overflow": []
+    }
+  ],
+  "interactions": {
+    "architecture": "阶梯山墙商宅",
+    "planning": "白石教堂山",
+    "map": "-540 -550 1080 1100",
+    "exploration": "在一格的尺度上动手",
+    "night": "NIGHT",
+    "filter": 1,
+    "lightbox": true,
+    "lightboxNext": "城墙之外6 / 10 — Beyond the city walls",
+    "lightboxClosed": true,
+    "mobileMenu": true,
+    "menuClosed": true,
+    "reduced": "journey reduced"
+  },
+  "brokenImages": [],
+  "deadAnchors": []
+}

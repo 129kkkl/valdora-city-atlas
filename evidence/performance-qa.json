@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "initial": {
+    "metrics": {
+      "cls": 0,
+      "lcp": 140,
+      "longTasks": []
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:5188/assets/index-CfRJ9N84.js",
+        "bytes": 275520
+      },
+      {
+        "name": "http://127.0.0.1:5188/assets/index-BiApHX1w.css",
+        "bytes": 43751
+      },
+      {
+        "name": "http://127.0.0.1:5188/images/hero.webp",
+        "bytes": 286232
+      },
+      {
+        "name": "http://127.0.0.1:5188/images/harbor.webp",
+        "bytes": 310236
+      },
+      {
+        "name": "http://127.0.0.1:5188/images/overview.webp",
+        "bytes": 51094
+      }
+    ],
+    "hero": {
+      "x": 973.3125,
+      "y": 800.484375,
+      "width": 285,
+      "height": 90.578125,
+      "top": 800.484375,
+      "right": 1258.3125,
+      "bottom": 891.0625,
+      "left": 973.3125
+    }
+  },
+  "journey": "山堡",
+  "reduced": {
+    "className": "journey reduced",
+    "height": 760,
+    "active": "海港",
+    "transition": "0s"
+  },
+  "scrollFrames": {
+    "sampleCount": 241,
+    "p50": 16.699999999999818,
+    "p95": 16.800000000000182,
+    "max": 16.800000000000182
+  },
+  "environment": "Local Chromium headless, 1440x900, no network/CPU throttling. Not a cross-device FPS guarantee."
+}

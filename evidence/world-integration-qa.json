@@ -1,0 +1,45 @@
+{
+  "entryURL": "http://127.0.0.1:5188/world/index.html?cam=205%2C168%2C100%7C42%2C107%2C-40&m=golden",
+  "errors": [],
+  "external": [],
+  "ready": true,
+  "requestedCamera": [
+    205,
+    168,
+    100
+  ],
+  "camera": [
+    204.9819773493652,
+    167.99999999999997,
+    100.02098078249215
+  ],
+  "target": [
+    42.000000000000014,
+    107,
+    -40.000000000000014
+  ],
+  "houses": 390,
+  "voxels": 3990645,
+  "acceptance": "pass",
+  "checks": {
+    "night": "night",
+    "timeFlow": true,
+    "audio": true,
+    "walk": true,
+    "edit": {
+      "before": null,
+      "painted": true,
+      "after": "limestone",
+      "undone": true
+    },
+    "shareURL": "http://127.0.0.1:5188/world/index.html?cam=205%2C168%2C100%7C42%2C107%2C-40&m=night&seed=5a17d04a",
+    "photo": "valdora-5a17d04a-2026-09-08T05-29-50-149Z.png",
+    "collection": "0/8"
+  },
+  "integrity": {
+    "original": "dc3d9317886c4d9d3ff2f77f66fe3c7260705ebc0be4d26b332b92ba8615ae91",
+    "publicCopy": "dc3d9317886c4d9d3ff2f77f66fe3c7260705ebc0be4d26b332b92ba8615ae91",
+    "productionCopy": "dc3d9317886c4d9d3ff2f77f66fe3c7260705ebc0be4d26b332b92ba8615ae91",
+    "identical": true
+  }
+}

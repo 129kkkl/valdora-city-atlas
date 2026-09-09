@@ -1,0 +1,97 @@
+[
+  {
+    "name": "morning",
+    "mode": null,
+    "hour": 5.5,
+    "state": {
+      "camera": [
+        438.00806851161923,
+        309.99999999999983,
+        621.40882832377
+      ],
+      "target": [
+        0,
+        60,
+        0
+      ],
+      "lightMode": "golden",
+      "time": 5.5
+    }
+  },
+  {
+    "name": "noon",
+    "mode": "noon",
+    "hour": 12,
+    "state": {
+      "camera": [
+        437.9811427426871,
+        309.99999999999943,
+        621.4278064279133
+      ],
+      "target": [
+        0,
+        60,
+        0
+      ],
+      "lightMode": "noon",
+      "time": 12
+    }
+  },
+  {
+    "name": "golden",
+    "mode": "golden",
+    "hour": 17.5,
+    "state": {
+      "camera": [
+        437.9806283397275,
+        309.9999999999994,
+        621.4281689778275
+      ],
+      "target": [
+        0,
+        60,
+        0
+      ],
+      "lightMode": "golden",
+      "time": 17.5
+    }
+  },
+  {
+    "name": "dusk",
+    "mode": null,
+    "hour": 18.5,
+    "state": {
+      "camera": [
+        437.9806195736098,
+        309.9999999999993,
+        621.4281751561596
+      ],
+      "target": [
+        0,
+        60,
+        0
+      ],
+      "lightMode": "golden",
+      "time": 18.5
+    }
+  },
+  {
+    "name": "night",
+    "mode": "night",
+    "hour": 0,
+    "state": {
+      "camera": [
+        437.98061943299933,
+        309.99999999999875,
+        621.4281752552592
+      ],
+      "target": [
+        0,
+        60,
+        0
+      ],
+      "lightMode": "night",
+      "time": 0
+    }
+  }
+]

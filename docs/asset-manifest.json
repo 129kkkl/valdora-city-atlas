@@ -1,0 +1,287 @@
+{
+  "source": "../欧洲体素箱庭小镇/index.html",
+  "sourceSha256": "dc3d9317886c4d9d3ff2f77f66fe3c7260705ebc0be4d26b332b92ba8615ae91",
+  "provenance": "Screenshots of the existing city, captured locally with Playwright. No stock or AI city imagery.",
+  "assets": [
+    {
+      "name": "cathedral-800.webp",
+      "bytes": 90498,
+      "sha256": "9715498d22f208a81fac8116b1bfa41c8aaea4c95842bf2196688020c26dfad6"
+    },
+    {
+      "name": "cathedral.webp",
+      "bytes": 286860,
+      "sha256": "849a09746debe8dfe70f250690372c39346d3610dcfcfb4989517045ecf84ab9"
+    },
+    {
+      "name": "citadel-800.webp",
+      "bytes": 77950,
+      "sha256": "420678d018a147e121c2e8466494110fa9438d07483001863d09f75ed4ceb6c4"
+    },
+    {
+      "name": "citadel.webp",
+      "bytes": 267124,
+      "sha256": "7dd175f57624072b4f5301936385f2b393f23a3651478d945c76378821114ef1"
+    },
+    {
+      "name": "farmland-800.webp",
+      "bytes": 123306,
+      "sha256": "a06b90674ff4b6108dd802820b1811c286861e0cd4d93cbcaa80e52ad0581ace"
+    },
+    {
+      "name": "farmland.webp",
+      "bytes": 403234,
+      "sha256": "0fa365011c5f8729a8676a9ab00c53bfe57f7f396ee0d7b0dd4a9f5fd7203d60"
+    },
+    {
+      "name": "gate-800.webp",
+      "bytes": 103986,
+      "sha256": "8118d076a2dbea51974ec2207d5b5515f6a2dbd3a30a80427eeb851a8cf27274"
+    },
+    {
+      "name": "gate.webp",
+      "bytes": 320288,
+      "sha256": "1d16eea58eeb5149dc6147269e7be2b766537d1c475200d852b1ea8808272857"
+    },
+    {
+      "name": "guildhall-800.webp",
+      "bytes": 77934,
+      "sha256": "5f17905b0eaaa4c7ea262ef648b38ec94f8e5b765eeedcd1f867a03e0fac4887"
+    },
+    {
+      "name": "guildhall.webp",
+      "bytes": 225918,
+      "sha256": "9b9ef7b1b18a50dadb5b14d4939d0cf1acb99be4c30a3470fc98718488f45db7"
+    },
+    {
+      "name": "harbor-800.webp",
+      "bytes": 93726,
+      "sha256": "9044a24605e20232d84b286240ef2d5c7b34a01cc4e443b7913681ff1768a21d"
+    },
+    {
+      "name": "harbor.webp",
+      "bytes": 309936,
+      "sha256": "120661df59ecb23e530d92e2db008706e046b8269cdf3d64a63e8e58a161be47"
+    },
+    {
+      "name": "hero-800.webp",
+      "bytes": 73944,
+      "sha256": "2a2f7b00e52e42ccd003d1dc26f31a4a9c6871bc41e3e5c0ff30a10a816dcea1"
+    },
+    {
+      "name": "hero.webp",
+      "bytes": 285932,
+      "sha256": "dcbb21aeb1d7ec632f594ea45d5e27b49e087469d82fbbf5f6e066f1f7c1b5ab"
+    },
+    {
+      "name": "house-alpineChalet-800.webp",
+      "bytes": 61542,
+      "sha256": "9cf6d83a50aceee362abb14bc22746f97f88df6547778f20877b0a21d436c566"
+    },
+    {
+      "name": "house-alpineChalet.webp",
+      "bytes": 178106,
+      "sha256": "71c5b1e590c079f3c53c81c65430fa0aba898b61bca198ac393e417d1779a71e"
+    },
+    {
+      "name": "house-arcadeMerchant-800.webp",
+      "bytes": 79552,
+      "sha256": "d4f753e3fd6abf76fa21ad2573918398122e4288d21036e2b18e4e8e865ab71b"
+    },
+    {
+      "name": "house-arcadeMerchant.webp",
+      "bytes": 219256,
+      "sha256": "666dbc6a63e386e0f0e5cb87932592e1ab059f619028678ec6c47c932964b6f6"
+    },
+    {
+      "name": "house-burgageRowhouse-800.webp",
+      "bytes": 66000,
+      "sha256": "e168280f4cb205c6650ba21e338bef4dd2f9cbd351064f7217cebcadb354b48d"
+    },
+    {
+      "name": "house-burgageRowhouse.webp",
+      "bytes": 171314,
+      "sha256": "8108e589c05de02305c7c12377dffa8ae284cecdf5d61c9afba776617403ce92"
+    },
+    {
+      "name": "house-courtyardWorkshop-800.webp",
+      "bytes": 77786,
+      "sha256": "02338552247be5883dccb550c4a9c3f7e02164cfa400665cbd236068e16dc3f4"
+    },
+    {
+      "name": "house-courtyardWorkshop.webp",
+      "bytes": 218302,
+      "sha256": "226b1c0ed86d7145a87c4892dc20645a04976bfb165394568bed60dcbc823502"
+    },
+    {
+      "name": "house-fachwerk-800.webp",
+      "bytes": 82046,
+      "sha256": "c2088e8e20b45871ec090bb7737cc97d3d6e6a15892a99d592e0f60c8c2d3a31"
+    },
+    {
+      "name": "house-fachwerk.webp",
+      "bytes": 229072,
+      "sha256": "81fe1648b85df010d153b4ed36e1b76569607c4f2eed8ea753755d65c2038316"
+    },
+    {
+      "name": "house-steppedGable-800.webp",
+      "bytes": 51510,
+      "sha256": "caef1164447abb27e268de8d535ecda93b245fc3e24c44c2706e605dafb3ee17"
+    },
+    {
+      "name": "house-steppedGable.webp",
+      "bytes": 138340,
+      "sha256": "b74ed254872ba794e4439f2da3100c2d17f6e167b8833ab811463f7a1c455aed"
+    },
+    {
+      "name": "house-timberWarehouse-800.webp",
+      "bytes": 67506,
+      "sha256": "bada6c1bca79fccc8334cb87d5b9a16f9c57ca419220d23c692cc9c2849807a1"
+    },
+    {
+      "name": "house-timberWarehouse.webp",
+      "bytes": 189202,
+      "sha256": "c9fec882f7e15406aac2a8ef829b48552d01686057d42d25d3a01b7ec9ce3a0e"
+    },
+    {
+      "name": "house-towerHouse-800.webp",
+      "bytes": 55078,
+      "sha256": "e87abd3a55f7b4744b6953d3c7aca23a0de7853dc7f422acb2d1a42cb7fb130d"
+    },
+    {
+      "name": "house-towerHouse.webp",
+      "bytes": 148244,
+      "sha256": "29f30a248b5599a00b44382ed491576c496dd94df6906c8324a2f59d5fc48c9b"
+    },
+    {
+      "name": "library-800.webp",
+      "bytes": 45950,
+      "sha256": "70b2a79dd2db265a3403b0984379286fb83f87bb14f225d53f973ced1139ef35"
+    },
+    {
+      "name": "library.webp",
+      "bytes": 136232,
+      "sha256": "9eeb72d71acaa3db847208712bf5e21aed3da6cddf02c47d82ed64a6143dc34a"
+    },
+    {
+      "name": "lighthouse-800.webp",
+      "bytes": 86526,
+      "sha256": "fccefda062ccb87c016764eef5e5ab8d6aea6259ce4184358cc50f55b8c08e7a"
+    },
+    {
+      "name": "lighthouse.webp",
+      "bytes": 280132,
+      "sha256": "2769fa23d6612360ba2513a52589cd2bfc6f266c53c5235d1883ba17bd326d35"
+    },
+    {
+      "name": "market-800.webp",
+      "bytes": 93590,
+      "sha256": "3b6daac51fce559b160a7b60b7daa4eb53f496cb6857027e30395453d3f61c03"
+    },
+    {
+      "name": "market.webp",
+      "bytes": 276250,
+      "sha256": "e821404661277a035e08764395a7803cc5311a99a3d391f53203ae7101e451ca"
+    },
+    {
+      "name": "mine-800.webp",
+      "bytes": 86874,
+      "sha256": "f5b975da2157578cbb1d7052b10e58d66adfdc1715d1930d8362bbe91557cd85"
+    },
+    {
+      "name": "mine.webp",
+      "bytes": 248196,
+      "sha256": "59aad8c1ecb0b5bb72cac48f235fa7fa0bcc4ea4e8901c2921ca41dd67de9dc9"
+    },
+    {
+      "name": "overview-800.webp",
+      "bytes": 11656,
+      "sha256": "762c52a4b764999f56fd809d9a5185732b47c81f97a8be4e0680a0dd3a6fb878"
+    },
+    {
+      "name": "overview.webp",
+      "bytes": 50794,
+      "sha256": "6126ad30183b4dd7edf502fbad8d8f2f83c7a650bd258a299b38bd5b3eee91f6"
+    },
+    {
+      "name": "salt-800.webp",
+      "bytes": 47406,
+      "sha256": "0a476e28316cc8a3fe2de3c3421ebf51ac2982f2bd0f73c7534f6080d489e629"
+    },
+    {
+      "name": "salt.webp",
+      "bytes": 162390,
+      "sha256": "5bd1386094eb9f543f2c9f9e405f221b5e685d2db022891fa90356c4c4c976f6"
+    },
+    {
+      "name": "time-dusk-800.webp",
+      "bytes": 29370,
+      "sha256": "1446284329daeb4a8dc608d730482a3c09febc13c9b0d34a34cd6628dffb2281"
+    },
+    {
+      "name": "time-dusk.webp",
+      "bytes": 113002,
+      "sha256": "9ec28eaa35db839674a1424f40f31f7c532bb69ef5020822ef3963be178ec2db"
+    },
+    {
+      "name": "time-golden-800.webp",
+      "bytes": 73800,
+      "sha256": "7a1b6b9347d3816663a4fa254311fa597c1cf612a39d96251620b7c3a8c73b33"
+    },
+    {
+      "name": "time-golden.webp",
+      "bytes": 285474,
+      "sha256": "a1b0cf260a03209a608f1a0e4bb88b77980de76c24ae95176c2b1e5914bf7a36"
+    },
+    {
+      "name": "time-morning-800.webp",
+      "bytes": 30432,
+      "sha256": "87fa480aaa4634ec0d14aa4d95287a03d9b73dbb6701e0632a88c15059b07031"
+    },
+    {
+      "name": "time-morning.webp",
+      "bytes": 123238,
+      "sha256": "9051db45cb230bd9cf69113de2cd9568917a99a503d82a8947d3ae33c72cf983"
+    },
+    {
+      "name": "time-night-800.webp",
+      "bytes": 13400,
+      "sha256": "de333d65a2ed5d52c3eba556e721cce3fcefdb16dac5bc9e8606d286bfa13e39"
+    },
+    {
+      "name": "time-night.webp",
+      "bytes": 58308,
+      "sha256": "acf60af58cc1d25cb251ce12c11d5503ca40a023bc88ba33b8da27d27a7d131e"
+    },
+    {
+      "name": "time-noon-800.webp",
+      "bytes": 91934,
+      "sha256": "8d581877a4d2964719706cd426432a73ea36cb5465f8042d1096e9453cda83a6"
+    },
+    {
+      "name": "time-noon.webp",
+      "bytes": 358650,
+      "sha256": "0c61ca4438bd6215aeefc7672ca5dbaaea298fe283d8a92400a4c8b2eaa3ba01"
+    },
+    {
+      "name": "topdown-800.webp",
+      "bytes": 60278,
+      "sha256": "414c50003cf5d47c39ad41babfc0c0bc722748479e5b3f36c64fc2c4f3cd24ce"
+    },
+    {
+      "name": "topdown.webp",
+      "bytes": 294192,
+      "sha256": "716eb79db7e76b9b3b7609b32e5b31afabbf170298d6d5528372877a7a116b4d"
+    },
+    {
+      "name": "waterworks-800.webp",
+      "bytes": 98822,
+      "sha256": "78c345dec41484f18af856615ab56de25fc9efd4de82d8479cd4ac9c0ffb591b"
+    },
+    {
+      "name": "waterworks.webp",
+      "bytes": 295974,
+      "sha256": "fc0f213372b53e6c83b794905f26d3b2baea43e2c6b3ba7d2c479a753e01f87e"
+    }
+  ]
+}

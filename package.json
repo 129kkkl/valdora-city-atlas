@@ -1,0 +1,26 @@
+{
+  "name": "valdora-city-atlas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "sync-world": "node scripts/sync-world.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "^1.62.1",
+    "prettier": "^3.9.6",
+    "sharp": "^0.35.4",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

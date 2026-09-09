@@ -1,0 +1,218 @@
+[
+  {
+    "id": "fachwerk",
+    "name": "半木构悬挑民居",
+    "en": "Fachwerk Timber House",
+    "count": 53
+  },
+  {
+    "id": "steppedGable",
+    "name": "阶梯山墙商宅",
+    "en": "Stepped Gable Merchant",
+    "count": 50
+  },
+  {
+    "id": "cornerTurret",
+    "name": "转角塔楼官邸",
+    "en": "Corner Turret Manor",
+    "count": 2
+  },
+  {
+    "id": "arcadeMerchant",
+    "name": "拱廊连栋商宅",
+    "en": "Arcade Merchant House",
+    "count": 2
+  },
+  {
+    "id": "cliffStilt",
+    "name": "临崖石裙住宅",
+    "en": "Cliffside Stilt Dwelling",
+    "count": 23
+  },
+  {
+    "id": "courtyardWorkshop",
+    "name": "围合式院落工坊",
+    "en": "Courtyard Workshop",
+    "count": 1
+  },
+  {
+    "id": "gothicTowerInn",
+    "name": "哥特塔楼旅店",
+    "en": "Gothic Tower Inn",
+    "count": 10
+  },
+  {
+    "id": "patricianOriel",
+    "name": "贵族凸窗大宅",
+    "en": "Patrician Townhouse with Oriel",
+    "count": 4
+  },
+  {
+    "id": "burgageRowhouse",
+    "name": "狭长条坊商宅",
+    "en": "Deep Burgage Rowhouse",
+    "count": 2
+  },
+  {
+    "id": "fisherCottage",
+    "name": "石造渔民小屋",
+    "en": "Stone Fisher Cottage",
+    "count": 31
+  },
+  {
+    "id": "wineCellarFarmhouse",
+    "name": "金藤酒窖农舍",
+    "en": "Wine Cellar Farmhouse",
+    "count": 9
+  },
+  {
+    "id": "millDwelling",
+    "name": "磨坊附属住宅",
+    "en": "Mill Dwelling",
+    "count": 4
+  },
+  {
+    "id": "gatehouseDwelling",
+    "name": "骑楼门洞住宅",
+    "en": "Gatehouse Dwelling",
+    "count": 2
+  },
+  {
+    "id": "towerHouse",
+    "name": "防卫塔楼民居",
+    "en": "Italian-style Tower House",
+    "count": 13
+  },
+  {
+    "id": "cloisterAnnex",
+    "name": "回廊修院附屋",
+    "en": "Cloister Annex",
+    "count": 9
+  },
+  {
+    "id": "timberWarehouse",
+    "name": "重木起重货栈",
+    "en": "Timber Warehouse with Crane",
+    "count": 7
+  },
+  {
+    "id": "terraceVilla",
+    "name": "山地露台别墅",
+    "en": "Terraced Hillside Villa",
+    "count": 9
+  },
+  {
+    "id": "smithy",
+    "name": "铁匠锻造铺",
+    "en": "Blacksmith Forge",
+    "count": 4
+  },
+  {
+    "id": "bakery",
+    "name": "砖窑面包工坊",
+    "en": "Bakery with Brick Oven",
+    "count": 5
+  },
+  {
+    "id": "barnStable",
+    "name": "谷仓与大牲棚",
+    "en": "Barn & Livestock Stable",
+    "count": 16
+  },
+  {
+    "id": "stiltWaterHouse",
+    "name": "水上吊脚木屋",
+    "en": "Stilt Water House",
+    "count": 11
+  },
+  {
+    "id": "hillsideSplitHouse",
+    "name": "坡地错层民居",
+    "en": "Hillside Split-Level House",
+    "count": 23
+  },
+  {
+    "id": "weaversLoft",
+    "name": "织工阁楼宅",
+    "en": "Weaver's Loft House",
+    "count": 1
+  },
+  {
+    "id": "saltStore",
+    "name": "坚石盐粮仓",
+    "en": "Salt & Grain Stone Store",
+    "count": 6
+  },
+  {
+    "id": "guildhallRow",
+    "name": "行会连栋会堂",
+    "en": "Guildhall Row",
+    "count": 2
+  },
+  {
+    "id": "bathhouse",
+    "name": "公共拱顶浴堂",
+    "en": "Civic Bathhouse",
+    "count": 5
+  },
+  {
+    "id": "scriptoriumHouse",
+    "name": "缮写神父宅",
+    "en": "Scriptorium & Priest House",
+    "count": 11
+  },
+  {
+    "id": "shipwrightShed",
+    "name": "造船作坊大棚",
+    "en": "Shipwright Long Shed",
+    "count": 2
+  },
+  {
+    "id": "alpineChalet",
+    "name": "高山深檐木居",
+    "en": "Alpine Timber Chalet",
+    "count": 27
+  },
+  {
+    "id": "jewishLaneHouse",
+    "name": "密巷窄进排楼",
+    "en": "Narrow Lane Townhouse",
+    "count": 1
+  },
+  {
+    "id": "ruinedTowerDwelling",
+    "name": "残塔依附宅",
+    "en": "Ruined Tower Dwelling",
+    "count": 19
+  },
+  {
+    "id": "canalWarehouse",
+    "name": "运河直卸水仓",
+    "en": "Canal Waterfront Warehouse",
+    "count": 1
+  },
+  {
+    "id": "hospiceHall",
+    "name": "安济客堂",
+    "en": "Hospice & Pilgrim Hall",
+    "count": 2
+  },
+  {
+    "id": "dovecoteFarm",
+    "name": "鸽楼农庄",
+    "en": "Dovecote Homestead",
+    "count": 3
+  },
+  {
+    "id": "brickCountingHouse",
+    "name": "红砖账房商肆",
+    "en": "Brick Counting House",
+    "count": 3
+  },
+  {
+    "id": "leanToCluster",
+    "name": "披屋群合聚落",
+    "en": "Lean-to Cluster House",
+    "count": 17
+  }
+]

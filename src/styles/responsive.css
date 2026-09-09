@@ -1,0 +1,1222 @@
+@layer responsive {
+  @media (min-width: 1600px) {
+    .section-wrap {
+      padding-left: max(7vw, calc((100vw - 1560px) / 2));
+      padding-right: max(7vw, calc((100vw - 1560px) / 2));
+    }
+    .hero-scene {
+      height: 720px;
+    }
+    .hero-title h1 {
+      font-size: 280px;
+    }
+    .site-header nav {
+      gap: 35px;
+    }
+    .hero-statement {
+      font-size: 43px;
+    }
+    .hero-bottom > div > p:last-child {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .site-header nav {
+      gap: 15px;
+    }
+    .site-header nav a {
+      font-size: 11px;
+    }
+    .brandmark > span {
+      font-size: 20px;
+    }
+    .brandmark svg {
+      width: 32px;
+    }
+    .header-enter {
+      padding: 7px 11px;
+      gap: 10px;
+      font-size: 10px;
+    }
+    .section-wrap {
+      padding: 85px 5vw;
+    }
+    .hero-side {
+      display: none;
+    }
+    .hero-title svg {
+      width: 35px;
+      right: -15px;
+    }
+    .hero-title h1 {
+      font-size: 18vw;
+    }
+    .hero-subline {
+      font-size: 10px;
+    }
+    .hero-scene {
+      height: 600px;
+    }
+    .hero-stats {
+      gap: 20px;
+    }
+    .hero-stats strong {
+      font-size: 27px;
+    }
+    .hero-stats > div > span {
+      font-size: 9px;
+    }
+    .planning-layout {
+      gap: 35px;
+      grid-template-columns: 1.4fr 1fr;
+    }
+    .map-panel {
+      padding: 15px;
+    }
+    .architecture-spread {
+      gap: 35px;
+    }
+    .architecture-visual img {
+      height: 530px;
+    }
+    .architecture-copy h3 {
+      font-size: 29px;
+    }
+    .architecture-index {
+      gap: 12px;
+    }
+    .architecture-index button {
+      font-size: 11px;
+    }
+    .architecture-index button span {
+      margin-right: 6px;
+    }
+    .landmark-copy {
+      padding: 20px 3vw;
+    }
+    .landmark-copy h3 {
+      font-size: 25px;
+    }
+    .landmark-photo img {
+      height: 560px;
+    }
+    .tech-layout {
+      gap: 6vw;
+    }
+    .tech-specs dl > div {
+      grid-template-columns: 95px 1fr;
+      gap: 15px;
+    }
+    .tech-specs dt {
+      font-size: 9px;
+    }
+    .collection {
+      gap: 7vw;
+    }
+    .collection-copy h2 {
+      font-size: 38px;
+    }
+    .collection-seal strong {
+      font-size: 75px;
+    }
+    .collection-seal span {
+      font-size: 18px;
+    }
+    .section-heading {
+      gap: 40px;
+    }
+    .section-heading > p {
+      max-width: 330px;
+      font-size: 14px;
+    }
+    .world-plate > img {
+      height: 560px;
+    }
+  }
+  @media (max-width: 1050px) {
+    .site-header {
+      height: 76px;
+      padding: 0 5vw;
+    }
+    .site-header nav {
+      display: none;
+      position: absolute;
+      top: 76px;
+      left: 0;
+      right: 0;
+      max-height: calc(100dvh - 76px);
+      overflow-y: auto;
+      background: var(--ink-deep);
+      padding: 20px 5vw 30px;
+      border-bottom: 1px solid #fff3;
+    }
+    .site-header nav.open {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 25px;
+    }
+    .site-header nav a {
+      font-size: 20px;
+      font-family: var(--serif);
+      border-bottom: 1px solid #fff2;
+      padding: 17px 0;
+    }
+    .site-header nav span {
+      display: inline;
+      float: right;
+      color: #b2c1b5;
+      font-size: 12px;
+      font-family: var(--sans);
+    }
+    .menu-toggle {
+      display: block;
+      margin-left: auto;
+      margin-right: 28px;
+      font-size: 12px;
+      padding: 12px;
+    }
+    .header-enter {
+      font-size: 10px;
+    }
+    .journey-sticky {
+      top: 76px;
+      height: calc(100vh - 76px);
+    }
+    .hero-stats {
+      grid-template-columns: 1.3fr 1fr 1fr;
+    }
+    .hero-stats > div:last-child {
+      display: none;
+    }
+    .hero-stats > div:nth-child(3) {
+      border: 0;
+    }
+    .architecture-title strong {
+      font-size: 100px;
+    }
+    .architecture-title p {
+      font-size: 12px;
+    }
+    .architecture-footnote {
+      gap: 35px;
+    }
+    .architecture-footnote > span {
+      white-space: normal;
+      max-width: 210px;
+    }
+    .landmark-feature {
+      grid-template-columns: 65% 35%;
+    }
+    .landmark-1,
+    .landmark-3 {
+      grid-template-columns: 35% 65%;
+    }
+    .landmark-2 {
+      grid-template-columns: 60% 40%;
+    }
+    .landmark-number {
+      font-size: 65px;
+    }
+    .landmark-copy p {
+      font-size: 13px;
+    }
+    .landmark-copy .enter-link {
+      font-size: 12px;
+    }
+    .journey-title h2 {
+      font-size: 95px;
+    }
+    .journey-current {
+      width: 280px;
+      right: 5vw;
+      bottom: 140px;
+    }
+    .time-heading h2 {
+      font-size: 40px;
+    }
+    .explore-overlay {
+      padding: 50px;
+    }
+    .collection {
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 45px;
+    }
+    .collection-seal {
+      padding: 20px;
+    }
+    .collection-seal span {
+      font-size: 15px;
+    }
+    .collection-seal strong {
+      font-size: 60px;
+    }
+    .collection-seal small {
+      font-size: 7px;
+    }
+    .tech-intro h2 {
+      font-size: 35px;
+    }
+    .tech-readout {
+      padding: 23px;
+    }
+    .tech-readout > strong {
+      font-size: 49px;
+    }
+    .tech-readout > div {
+      gap: 10px;
+    }
+    .tech-readout > div span {
+      font-size: 9px;
+    }
+    .gallery-grid {
+      gap: 35px 23px;
+    }
+    .gi-1 {
+      margin-top: 60px;
+    }
+    .manifesto-body {
+      gap: 50px;
+    }
+  }
+  @media (max-width: 760px) {
+    html {
+      scroll-padding-top: 85px;
+    }
+    .section-wrap {
+      padding: 68px 24px;
+    }
+    h2 {
+      font-size: 34px;
+    }
+    .kicker {
+      font-size: 10px;
+      gap: 14px;
+      margin-bottom: 30px;
+    }
+    .kicker > span:first-child {
+      width: 25px;
+      height: 25px;
+    }
+    .site-header {
+      height: 68px;
+      padding: 0 20px;
+    }
+    .brandmark svg {
+      width: 30px;
+    }
+    .brandmark > span {
+      font-size: 19px;
+    }
+    .brandmark small {
+      font-size: 7px;
+    }
+    .menu-toggle {
+      margin-right: 13px;
+      font-size: 11px;
+    }
+    .header-enter {
+      font-size: 9px;
+      padding: 8px 10px;
+      letter-spacing: 0.02em;
+      gap: 8px;
+    }
+    .header-enter .arrow {
+      font-size: 15px;
+    }
+    .site-header nav {
+      top: 68px;
+    }
+    .hero-sky {
+      padding: 20px 24px 0;
+    }
+    .hero-edition {
+      font-size: 8px;
+      letter-spacing: 0.1em;
+    }
+    .hero-title h1 {
+      font-size: 19.5vw;
+      line-height: 1.1;
+      margin: 20px auto 10px;
+      letter-spacing: -0.07em;
+    }
+    .hero-title svg {
+      display: none;
+    }
+    .hero-subline {
+      padding: 0 0 20px;
+      display: block;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: 0.14em;
+    }
+    .hero-subline > span:last-child {
+      display: block;
+      font-size: 10px;
+      margin-top: 9px;
+      letter-spacing: 0.15em;
+    }
+    .hero-scene {
+      margin: 0 12px;
+      height: 660px;
+    }
+    .hero-scene > img {
+      object-position: 55% 45%;
+    }
+    .hero-scene:after {
+      background: linear-gradient(0deg, #101c1af7, transparent 100%);
+    }
+    .hero-coordinate {
+      top: 18px;
+      left: 15px;
+      right: 15px;
+      font-size: 8px;
+      letter-spacing: 0.02em;
+    }
+    .hero-coordinate > span:last-child {
+      font-size: 7px;
+    }
+    .hero-bottom {
+      left: 24px;
+      right: 24px;
+      bottom: 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 25px;
+    }
+    .hero-statement {
+      font-size: 31px;
+      margin-bottom: 12px;
+    }
+    .hero-bottom > div > p:last-child {
+      font-size: 12px;
+    }
+    .hero-enter {
+      margin: 0;
+      width: 100%;
+      min-width: 0;
+      padding: 16px 20px;
+      font-size: 13px;
+    }
+    .hero-enter small {
+      font-size: 10px;
+    }
+    .scroll-cue {
+      display: none;
+    }
+    .hero-stats {
+      grid-template-columns: 1fr 1fr;
+      padding: 28px 24px 35px;
+      gap: 27px 20px;
+    }
+    .hero-stats > div {
+      border: 0 !important;
+    }
+    .hero-stats > div:last-child {
+      display: block;
+    }
+    .hero-stats strong {
+      font-size: 23px;
+    }
+    .hero-stats > div > span {
+      font-size: 8px;
+      letter-spacing: 0.02em;
+    }
+    .section-heading {
+      display: block;
+      margin-bottom: 35px;
+    }
+    .section-heading > p {
+      font-size: 14px;
+      max-width: none;
+      margin-top: 25px;
+    }
+    .world-plate {
+      margin: 0 -10px;
+    }
+    .world-plate > img {
+      height: 460px;
+      object-position: center 65%;
+    }
+    .world-dimension {
+      font-size: 8px;
+      top: 18px;
+    }
+    .world-caption {
+      left: 15px;
+      right: 15px;
+      font-size: 7px;
+      bottom: 13px;
+      letter-spacing: 0;
+    }
+    .world-seal {
+      right: 15px;
+      bottom: 42px;
+      padding: 12px 16px;
+    }
+    .world-seal strong {
+      font-size: 27px;
+    }
+    .world-seal span {
+      font-size: 9px;
+    }
+    .world-notes {
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .world-notes p {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      font-size: 13px;
+      padding-top: 15px;
+    }
+    .world-notes span {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+    }
+    .planning-head {
+      display: block;
+      margin-bottom: 35px;
+    }
+    .planning-head p {
+      font-size: 13px;
+      margin-top: 25px;
+    }
+    .planning-layout {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .map-panel {
+      position: relative;
+      top: 0;
+      width: 100%;
+      padding: 12px;
+    }
+    .map-toolbar {
+      font-size: 9px;
+      padding-bottom: 10px;
+    }
+    .map-toolbar button {
+      font-size: 10px;
+    }
+    .map-legend {
+      font-size: 8px;
+      gap: 12px;
+    }
+    .map-note {
+      font-size: 8px;
+    }
+    .district-aside {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+    .district-tabs button {
+      font-size: 11px;
+      padding: 13px 0;
+      gap: 8px;
+      min-height: 45px;
+    }
+    .district-tabs button > span:first-child {
+      font-size: 8px;
+    }
+    .district-tabs button > span:last-child {
+      display: none;
+    }
+    .district-detail img {
+      margin-top: 0;
+      height: 125px;
+      margin-bottom: 16px;
+    }
+    .district-detail .eyebrow {
+      font-size: 8px;
+    }
+    .district-detail h3 {
+      font-size: 20px;
+    }
+    .district-detail p {
+      font-size: 11px;
+      line-height: 1.9;
+      min-height: 150px;
+    }
+    .architecture-title {
+      align-items: end;
+      margin-bottom: 35px;
+      gap: 15px;
+    }
+    .architecture-title h2 {
+      font-size: 32px;
+    }
+    .architecture-title > div {
+      display: block;
+      text-align: right;
+    }
+    .architecture-title strong {
+      font-size: 65px;
+    }
+    .architecture-title p {
+      font-size: 9px;
+      margin-top: 5px;
+    }
+    .architecture-spread {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .architecture-visual {
+      padding: 10px;
+    }
+    .architecture-visual img {
+      height: 390px;
+    }
+    .plate-label {
+      left: 20px;
+      bottom: 20px;
+      font-size: 7px;
+      padding: 7px 9px;
+    }
+    .architecture-copy {
+      padding: 0;
+    }
+    .architecture-copy h3 {
+      font-size: 27px;
+      margin: 10px 0;
+    }
+    .architecture-type {
+      padding-bottom: 18px;
+      font-size: 11px;
+    }
+    .architecture-copy p {
+      margin: 20px 0;
+      font-size: 14px;
+    }
+    .architecture-copy ol {
+      display: flex;
+      gap: 15px;
+      font-size: 11px;
+    }
+    .architecture-copy li {
+      flex: 1;
+      white-space: nowrap;
+    }
+    .architecture-copy li span {
+      margin-right: 8px;
+      font-size: 9px;
+    }
+    .architecture-pagination {
+      width: 100%;
+      justify-content: space-between;
+      padding-top: 25px;
+    }
+    .architecture-index {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      gap: 0 20px;
+      margin-top: 20px;
+    }
+    .architecture-index button {
+      padding: 13px 0;
+      font-size: 10px;
+    }
+    .architecture-footnote {
+      display: block;
+      margin-top: 28px;
+    }
+    .architecture-footnote > span {
+      font-size: 10px;
+      max-width: none;
+    }
+    .architecture-footnote p {
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    .landmark-heading {
+      text-align: left;
+      padding-bottom: 40px;
+    }
+    .landmark-heading .kicker {
+      justify-content: start;
+    }
+    .landmark-heading p {
+      font-size: 12px;
+    }
+    .landmark-feature,
+    .landmark-1,
+    .landmark-2,
+    .landmark-3 {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0 0 45px;
+      gap: 0;
+    }
+    .landmark-photo {
+      width: 100%;
+    }
+    .landmark-photo img,
+    .landmark-1 .landmark-photo img,
+    .landmark-2 .landmark-photo img,
+    .landmark-3 .landmark-photo img {
+      height: 430px;
+      object-position: center;
+    }
+    .landmark-photo-label {
+      left: 20px;
+      bottom: 17px;
+      font-size: 8px;
+      padding: 6px 9px;
+    }
+    .landmark-copy,
+    .landmark-1 .landmark-copy,
+    .landmark-2 .landmark-copy,
+    .landmark-3 .landmark-copy {
+      width: 100%;
+      padding: 28px 24px 10px;
+      position: relative;
+    }
+    .landmark-number {
+      position: absolute;
+      right: 24px;
+      top: 20px;
+      font-size: 46px;
+      opacity: 0.45;
+    }
+    .landmark-copy .eyebrow {
+      font-size: 9px;
+      padding-right: 50px;
+    }
+    .landmark-copy h3 {
+      font-size: 27px;
+      margin: 12px 0 15px;
+    }
+    .landmark-copy p {
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+    .landmark-copy .enter-link {
+      font-size: 12px;
+      gap: 35px;
+    }
+    .other-landmarks {
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 45px;
+    }
+    .other-landmarks > span {
+      font-size: 10px;
+    }
+    .other-landmarks p {
+      font-size: 11px;
+      margin-top: 15px;
+    }
+    .journey {
+      height: 340vh;
+    }
+    .journey-sticky {
+      top: 68px;
+      height: calc(100svh - 68px);
+      min-height: 580px;
+    }
+    .journey-title {
+      top: 30px;
+      left: 24px;
+      right: 24px;
+    }
+    .journey-title .kicker {
+      font-size: 8px;
+      margin-bottom: 22px;
+    }
+    .journey-title h2 {
+      font-size: 70px;
+    }
+    .journey-title p {
+      font-size: 11px;
+      margin-top: 18px;
+    }
+    .journey-current {
+      left: 24px;
+      right: 24px;
+      width: auto;
+      bottom: 105px;
+      max-width: 300px;
+    }
+    .journey-current h3 {
+      font-size: 30px;
+      margin: 8px 0;
+    }
+    .journey-current > span {
+      font-size: 9px;
+    }
+    .journey-current p {
+      font-size: 12px;
+    }
+    .journey-route {
+      left: 20px;
+      right: 20px;
+      bottom: 23px;
+      padding-top: 14px;
+    }
+    .journey-route button {
+      font-size: 9px;
+      min-width: 0;
+      padding: 7px 5px;
+    }
+    .journey-route i {
+      top: -19px;
+      width: 7px;
+      height: 7px;
+    }
+    .journey-steps > div {
+      height: 43vh;
+    }
+    .journey.reduced {
+      height: 700px;
+    }
+    .explore-tabs {
+      gap: 0;
+      margin-bottom: 20px;
+    }
+    .explore-tabs button {
+      font-size: 15px;
+      padding: 15px 2px;
+    }
+    .explore-tabs button span {
+      display: none;
+    }
+    .explore-stage {
+      min-height: 610px;
+      margin: 0 -10px;
+      display: flex;
+      align-items: end;
+    }
+    .explore-stage > img {
+      inset: 0;
+      object-position: 55%;
+    }
+    .explore-stage:after {
+      background: linear-gradient(0deg, #101c1af7, #101c1a20);
+    }
+    .explore-overlay {
+      padding: 30px 24px;
+      max-width: none;
+    }
+    .explore-overlay h3 {
+      font-size: 28px;
+      margin: 20px 0;
+    }
+    .explore-overlay p {
+      font-size: 13px;
+    }
+    .key-row kbd {
+      font-size: 10px;
+      padding: 4px 7px;
+    }
+    .key-row {
+      margin: 20px 0;
+      gap: 7px;
+    }
+    .explore-overlay .eyebrow {
+      font-size: 10px;
+    }
+    .explore-overlay .enter-link {
+      font-size: 12px;
+    }
+    .explore-note {
+      font-size: 10px;
+      margin-top: 14px;
+    }
+    .daynight {
+      height: 790px;
+    }
+    .time-heading {
+      top: 40px;
+      left: 24px;
+      right: 24px;
+    }
+    .time-heading .kicker {
+      font-size: 9px;
+      margin-bottom: 30px;
+    }
+    .time-heading h2 {
+      font-size: 29px;
+    }
+    .time-images img {
+      object-position: 55%;
+    }
+    .time-caption {
+      left: 24px;
+      right: 24px;
+      bottom: 210px;
+      display: block;
+    }
+    .time-caption > span {
+      font-size: 76px;
+    }
+    .time-caption h3 {
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    .time-caption p {
+      font-size: 12px;
+    }
+    .time-controls {
+      left: 24px;
+      right: 24px;
+      bottom: 30px;
+    }
+    .time-controls button {
+      font-size: 10px;
+      min-width: 0;
+    }
+    .time-controls button span {
+      font-size: 8px;
+    }
+    .time-controls small {
+      font-size: 8px;
+    }
+    .collection {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .collection-seal {
+      width: 245px;
+      padding: 20px;
+      align-self: center;
+    }
+    .collection-seal span {
+      font-size: 15px;
+    }
+    .collection-seal strong {
+      font-size: 62px;
+    }
+    .collection-seal svg {
+      width: 30px;
+      margin-bottom: 10px;
+    }
+    .collection-copy h2 {
+      font-size: 31px;
+    }
+    .collection-copy p {
+      font-size: 13px;
+    }
+    .collection-copy .kicker {
+      font-size: 9px;
+    }
+    .scroll-index > span {
+      font-size: 18px;
+    }
+    .scroll-index small {
+      font-size: 8px;
+    }
+    .collection-note {
+      font-size: 9px;
+    }
+    .collection-copy .enter-link {
+      font-size: 12px;
+    }
+    .tech-layout {
+      display: block;
+    }
+    .tech-intro h2 {
+      font-size: 32px;
+    }
+    .tech-intro > p {
+      font-size: 13px;
+    }
+    .voxel-diagram {
+      width: 220px;
+      margin: 35px auto 45px;
+    }
+    .tech-readout {
+      padding: 23px;
+    }
+    .tech-readout > strong {
+      font-size: 49px;
+    }
+    .tech-readout > span {
+      font-size: 9px;
+    }
+    .tech-readout > div span {
+      font-size: 9px;
+    }
+    .tech-readout b {
+      font-size: 26px;
+    }
+    .tech-readout > small {
+      font-size: 8px;
+    }
+    .tech-specs dl > div {
+      grid-template-columns: 85px 1fr;
+      gap: 17px;
+    }
+    .tech-specs h3 {
+      font-size: 17px;
+    }
+    .tech-specs dd p {
+      font-size: 12px;
+    }
+    .gallery-heading {
+      display: block;
+      margin-bottom: 25px;
+    }
+    .gallery-heading h2 {
+      font-size: 32px;
+    }
+    .gallery-heading p {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+    .gallery-filters {
+      gap: 10px;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .gallery-filters button {
+      font-size: 10px;
+      padding: 11px 4px;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px 15px;
+    }
+    .gallery-item {
+      grid-column: auto;
+      margin: 0;
+      min-width: 0;
+    }
+    .gi-0,
+    .gi-4,
+    .gi-5 {
+      grid-column: 1 / 3;
+    }
+    .gi-0 button {
+      aspect-ratio: 1.25;
+    }
+    .gi-1 button {
+      aspect-ratio: 0.7;
+    }
+    .gi-2 button {
+      aspect-ratio: 0.7;
+    }
+    .gi-3 {
+      grid-column: 1 / 3;
+    }
+    .gi-3 button {
+      aspect-ratio: 1.4;
+    }
+    .gi-4 button {
+      aspect-ratio: 1.35;
+    }
+    .gi-5 button {
+      aspect-ratio: 1.4;
+    }
+    .gallery-item figcaption {
+      font-size: 12px;
+      gap: 10px;
+      margin-top: 11px;
+    }
+    .gallery-item figcaption small {
+      font-size: 8px;
+      line-height: 1.5;
+    }
+    .gallery-item figcaption > span:last-child {
+      font-size: 21px;
+    }
+    .zoom-mark {
+      width: 28px;
+      height: 28px;
+      bottom: 10px;
+      right: 10px;
+      font-size: 18px;
+    }
+    .lightbox {
+      padding: 15px;
+      width: 96vw;
+    }
+    .lightbox-top {
+      font-size: 9px;
+      gap: 10px;
+    }
+    .lightbox > img {
+      max-height: 65vh;
+    }
+    .lightbox-bottom p {
+      font-size: 13px;
+    }
+    .lightbox-bottom small {
+      font-size: 9px;
+    }
+    .manifesto h2 {
+      font-size: 17vw;
+      line-height: 1.1;
+    }
+    .manifesto-body {
+      display: block;
+      margin-top: 40px;
+    }
+    .manifesto-body > svg {
+      width: 60px;
+      margin: 0 0 35px;
+    }
+    .manifesto-body h3 {
+      font-size: 26px;
+    }
+    .manifesto-body p {
+      font-size: 13px;
+    }
+    .final-cta {
+      height: 810px;
+    }
+    .final-content h2 {
+      font-size: 99px;
+      margin: 30px 0;
+    }
+    .final-content > span {
+      font-size: 10px;
+    }
+    .final-content svg {
+      width: 42px;
+    }
+    .final-content p {
+      font-size: 13px;
+    }
+    .final-content .enter-link {
+      font-size: 12px;
+      gap: 25px;
+      padding: 18px 23px;
+    }
+    .final-content .enter-link small {
+      display: none;
+    }
+    .final-content > small {
+      font-size: 9px;
+    }
+    .footer {
+      padding: 35px 24px 25px;
+      gap: 25px;
+    }
+    .footer-wordmark {
+      font-size: 40px;
+    }
+    .footer > p {
+      font-size: 8px;
+    }
+    .footer > p span {
+      font-size: 9px;
+    }
+    .footer > a:last-of-type {
+      font-size: 10px;
+    }
+    .footer > div {
+      display: block;
+      font-size: 8px;
+      line-height: 2.2;
+    }
+    .footer > div span {
+      display: block;
+    }
+  }
+  @media (max-width: 390px) {
+    .header-enter {
+      font-size: 8px;
+      padding: 8px;
+    }
+    .brandmark {
+      gap: 8px;
+    }
+    .brandmark > span {
+      font-size: 17px;
+    }
+    .brandmark svg {
+      width: 25px;
+    }
+    .menu-toggle {
+      margin-right: 8px;
+      padding: 10px 5px;
+    }
+    .hero-statement {
+      font-size: 28px;
+    }
+    .hero-subline {
+      font-size: 8px;
+    }
+    .hero-edition {
+      font-size: 7px;
+    }
+    .architecture-title h2 {
+      font-size: 28px;
+    }
+    .architecture-title strong {
+      font-size: 58px;
+    }
+    .architecture-title p {
+      font-size: 8px;
+    }
+    .district-aside {
+      gap: 14px;
+    }
+    .district-tabs button {
+      font-size: 10px;
+    }
+    .gallery-filters {
+      gap: 5px;
+    }
+    .tech-readout > strong {
+      font-size: 43px;
+    }
+    .tech-readout > div {
+      gap: 8px;
+    }
+    .tech-specs dl > div {
+      grid-template-columns: 72px 1fr;
+      gap: 12px;
+    }
+    .tech-specs dt {
+      font-size: 8px;
+    }
+    .architecture-copy ol {
+      gap: 8px;
+    }
+    .architecture-copy li {
+      font-size: 10px;
+    }
+    .collection-copy .kicker {
+      font-size: 8px;
+    }
+    .journey-title h2 {
+      font-size: 62px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *:before,
+    *:after {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+    .landmark-photo:hover img,
+    .gallery-item button:hover img {
+      transform: none;
+    }
+    .journey {
+      height: 760px;
+    }
+    .journey-sticky {
+      position: relative;
+      top: 0;
+      height: 100%;
+    }
+    .journey-steps {
+      display: none;
+    }
+  }
+}

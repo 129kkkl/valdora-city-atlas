@@ -1,0 +1,204 @@
+@layer responsive {
+  @media (min-width: 761px) {
+    .hero-title h1 {
+      font-size: 15vw;
+      max-height: 235px;
+    }
+    .hero-sky {
+      padding-top: 16px;
+    }
+    .hero-edition {
+      font-size: 10px;
+    }
+    .hero-subline {
+      padding: 10px 0 17px;
+    }
+    .hero-scene {
+      height: calc(100svh - 382px);
+      min-height: 410px;
+      max-height: 690px;
+    }
+    .hero-bottom {
+      bottom: 28px;
+    }
+    .hero-statement {
+      font-size: 30px;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+    .hero-bottom > div > p:last-child {
+      font-size: 12px;
+    }
+    .hero-enter {
+      padding: 17px 24px;
+    }
+    .hero-scale {
+      font-size: 12px !important;
+      color: var(--gold) !important;
+      letter-spacing: 0.1em;
+    }
+    .hero-coordinate {
+      font-size: 10px;
+    }
+    .hero-title svg {
+      width: 3.5vw;
+    }
+  }
+  @media (min-width: 1600px) {
+    .hero-title h1 {
+      font-size: 235px;
+    }
+    .hero-scene {
+      height: calc(100svh - 382px);
+    }
+  }
+  @media (min-width: 761px) and (max-height: 820px) {
+    .hero-title h1 {
+      font-size: 12vw;
+      max-height: 172px;
+    }
+    .hero-title {
+      max-height: 190px;
+    }
+    .hero-scene {
+      height: calc(100svh - 315px);
+      min-height: 350px;
+    }
+    .hero-bottom {
+      bottom: 22px;
+    }
+    .hero-statement {
+      font-size: 25px;
+    }
+    .hero-bottom > div > p:last-child {
+      font-size: 11px;
+    }
+    .hero-subline {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 760px) {
+    .hero-scene {
+      height: calc(100svh - 285px);
+      min-height: 520px;
+      max-height: 660px;
+    }
+    .hero-bottom {
+      bottom: 23px;
+      gap: 20px;
+    }
+    .hero-statement {
+      font-size: 28px;
+    }
+    .hero-scale {
+      font-size: 9px !important;
+      color: var(--gold) !important;
+      letter-spacing: 0.03em;
+      max-width: 180px;
+    }
+    .hero-coordinate > span:last-child {
+      display: none;
+    }
+    .district-detail p {
+      font-size: 13px;
+    }
+    .district-tabs button {
+      font-size: 12px;
+    }
+    .tech-specs dd p,
+    .manifesto-body p,
+    .collection-copy p,
+    .landmark-copy p,
+    .explore-overlay p {
+      font-size: 14px;
+    }
+    .explore-note,
+    .collection-note {
+      font-size: 11px;
+    }
+    .architecture-footnote p {
+      font-size: 13px;
+    }
+  }
+  .architecture-catalog {
+    margin-top: 35px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 20px 0;
+  }
+  .architecture-catalog summary {
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+  }
+  .prototype-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 30px;
+    margin-top: 25px;
+  }
+  .prototype-list > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+    gap: 20px;
+    font-size: 12px;
+  }
+  .prototype-list small {
+    color: var(--muted);
+    font-size: 10px;
+  }
+  .prototype-list strong {
+    font-weight: 400;
+  }
+  .prototype-list span {
+    display: block;
+  }
+  .prototype-list b {
+    font-weight: 400;
+    color: var(--muted);
+    white-space: nowrap;
+    font-family: var(--serif);
+    font-size: 20px;
+  }
+  .architecture-catalog > p {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 20px;
+  }
+  @media (max-width: 760px) {
+    .prototype-list {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .prototype-list > div {
+      font-size: 13px;
+    }
+    .architecture-catalog summary {
+      font-size: 12px;
+    }
+  }
+}
+@layer responsive {
+  .journey-images,
+  .journey-images > div {
+    position: absolute;
+    inset: 0;
+  }
+  .journey-images > div {
+    opacity: 0;
+    transition: opacity 0.8s;
+  }
+  .journey-images > div.active {
+    opacity: 1;
+  }
+  .journey-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .master-plan {
+    overflow: hidden;
+  }
+}
